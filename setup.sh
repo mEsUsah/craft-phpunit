@@ -6,7 +6,7 @@
 
 # Install PHP dependencies
 composer upgrade vlucas/phpdotenv:^5
-composer require phpunit/phpunit --dev
+composer require phpunit/phpunit guzzlehttp/guzzle --dev
 
 # Create directories
 mkdir -p tests/Unit
