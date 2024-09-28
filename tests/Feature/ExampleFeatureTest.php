@@ -2,6 +2,11 @@
 use PHPUnit\Framework\TestCase;
 use craft\helpers\App;
 use GuzzleHttp\Client;
+/*
+    Written by Stanley Skarshaug 2024.09.29
+    https://github.com/mEsUsah
+    https://www.haxor.no
+*/
 
 final class ExampleFeatureTest extends TestCase
 {    
