@@ -2,11 +2,11 @@
 A simple PHPUnit setup for Craft CMS.
 
 ## Setup:
-Run the setup script in the project root of your project to add the basic files needed:
+Run this one-liner in your project root to add the basic files and directories:
 ```bash
 wget -O - https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/setup.sh | bash
 ```
-For a more in-depth desription on the setup and how to get started with testing Craft CMS, read [this article on my blog](https://haxor.no/en/article/testing-craft-cms).
+For a more in-depth desription on the setup and how to get started with testing Craft CMS with PHPUnit, read [this article on my blog](https://haxor.no/en/article/testing-craft-cms).
 
 ## Example tests:
 This repo contains some example tests, that can be used for inspiration.
