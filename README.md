@@ -57,6 +57,7 @@ final class ExampleTest extends TestCase
     public function test_can_clear_cache(): void
     {
         ClearCache::run();
+        $this->assertTrue(true);
     }
 }
 ```
