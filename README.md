@@ -12,7 +12,7 @@ For a more in-depth desription on the setup and how to get started with testing 
 This repo contains some example tests, that can be used for inspiration.
 
 ### Modify Example
-After running the setup script, you must change line 10 in tests/Unit/ExampleUnitTest.php to:
+If you run Craft Solo, you must change line 10 in tests/Unit/ExampleUnitTest.php to:
 ```php
 $this->assertEquals(CmsEdition::Solo, Craft::$app->edition);
 ```
