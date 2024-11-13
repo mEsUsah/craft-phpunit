@@ -41,10 +41,6 @@ final class ArticlesTest extends TestCase
         $sites = Craft::$app->getSites()->getAllSites();
         
         foreach ($sites as $site) {
-            if($site->handle == 'default') {
-                continue;
-            }
-
             $entries = Entry::find()->site($site->handle)->all();
             foreach ($entries as $entry) {
                 $route = $entry->getUrl();
