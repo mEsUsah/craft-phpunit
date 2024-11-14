@@ -21,5 +21,8 @@ wget https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/t
 wget https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/tests/Feature/ExampleFeatureTest.php -O tests/Feature/ExampleFeatureTest.php
 wget https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/tests/Unit/ExampleUnitTest.php -O tests/Unit/ExampleUnitTest.php
 
+# Actual tests
+wget https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/tests/Feature/ArticleFeatureTest.php -O tests/Feature/ArticleFeatureTest.php
+
 ## Gitignore cache directory
 printf "\n.phpunit.cache" >> .gitignore
