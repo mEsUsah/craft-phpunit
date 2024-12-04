@@ -3,6 +3,7 @@ A simple PHPUnit setup for Craft CMS.
 
 ## Setup:
 Run this one-liner in your project root to add the basic files and directories:
+* NB! If you use DDev, you must run the script inside the container.
 ```bash
 wget -O - https://raw.githubusercontent.com/mEsUsah/craft-phpunit/refs/heads/master/setup.sh | bash
 ```
