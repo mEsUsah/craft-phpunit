@@ -33,10 +33,14 @@ final class ArticleFeatureTest extends TestCase
         // Loop through all entries and create a request for each
         $requests = function () use ($entries) {
             foreach ($entries as $entry) {
-                if($entry->getUrl() == null) {
+                $url = $entry->getUrl();
+                if($url == null) {
                     continue;
                 }
-                yield new Request('HEAD', $entry->getUrl());
+                if(strpos($url, "@web") !== false) {
+                    $url = str_replace("@web", "", $url);
+                }
+                yield new Request('HEAD', $url);
             }
         };
 
