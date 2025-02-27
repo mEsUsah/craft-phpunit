@@ -15,6 +15,7 @@ final class ExampleFeatureTest extends TestCase
         $client = new Client([
             'base_uri' =>  App::env('PRIMARY_SITE_URL'),
             'timeout'  => 2.0,
+            'verify' => false
         ]);
         
         $response = $client->request('GET', '/');
