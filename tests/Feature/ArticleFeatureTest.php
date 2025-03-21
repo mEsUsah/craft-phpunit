@@ -26,6 +26,9 @@ final class ArticleFeatureTest extends TestCase
         
         // Loop through all sites and get all entries
         foreach ($sites as $site) {
+            if(!$site->enabled) {
+                continue;
+            }
             $siteEntries = Entry::find()->site($site->handle)->all();
             array_push($entries, ...$siteEntries);
         }
