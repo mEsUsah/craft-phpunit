@@ -3,7 +3,7 @@
     Written by Stanley Skarshaug 2024.11.14
     https://www.haxor.no
 */
-
+namespace tests\Feature;
 use PHPUnit\Framework\TestCase;
 use craft\elements\Entry;
 use craft\helpers\App;
